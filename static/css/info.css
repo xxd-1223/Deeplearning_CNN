@@ -1,0 +1,112 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";color: black;}
+input,a{outline:none;}
+*{box-sizing: border-box;}
+body{
+	background: url(../image/info_background.jpg) no-repeat;
+	background-size:cover ;
+}
+.top{
+	width: 1000px;
+	height: 40px;
+	background-color: cornflowerblue;
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: 24px;
+	color: white;
+	padding-left:20px ;
+}
+.m1{
+	width: 1000px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.catlogo{
+	width: 210px;
+	height: 210px;
+	padding: 4px;
+	border: 1px solid gray;
+}
+.catlogo img{
+	width: 200px;
+	height: 200px;
+}
+.catname{
+	width: 770px;
+	font-size: 18px;
+	padding: 10px;
+	text-align: justify;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+}
+.m2,.m3{
+	width: 1000px;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.feature{
+	width: 400px;
+	height: 400px;
+	text-align: justify;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	/*position:relative; left: 0; top: 10px;*/
+	display:inline;
+}
+.live{
+	width: 560px;
+	height: 400px;
+	text-align: justify;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	position: absolute;right: 260px; top:280px;
+}
+.featt,.maintitle,.methodtitle{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	color: white;
+	padding-left: 20px;
+	background: cornflowerblue;
+}
+.nn{
+	font-size: 18px;
+	margin: 8px;
+}
+.m3{
+	height: 450px;
+}
+.feedmethod{
+	width: 510px;
+	height: 440px;
+	text-align: justify;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+
+}
+.feedmain{
+	width: 450px;
+	height: 440px;
+	text-align: justify;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+}
+.footcat{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	height: 300px;
+}

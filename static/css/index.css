@@ -1,0 +1,88 @@
+.background{
+    background: url(../image/index_background.jpg) ;
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+}
+.div1{
+    width: 100%;
+	height: 550px;
+	padding-top: 100px;
+	padding-left: 0;
+
+}
+.div2{
+	width: 500px;
+	height: 565px;
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 0px 0px 5px 5px #888888;
+    position:relative; left: 830px; top: -20px;
+	border-radius: 10px;
+}
+.title{
+    width: 100%;
+	height: 55px;
+	padding-top: 20px;
+    font-family: "Matura MT Script Capitals";
+    font-size: 20px;
+
+}
+.title p{
+    text-align: center;
+}
+
+.select{
+	width: 100%;
+	height: 200px;
+}
+
+.upfile{
+    width: 200px;
+	height: 100px;
+	display: none;
+	border: 0;
+}
+
+.upfile_btn,.sub{
+	width: 300px;
+	height: 60px;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 25px;
+	margin-left: 110px;
+	font-size: 25px;
+	border-radius: 10px;
+	border: 0px;
+	color: white;
+	font-family: 楷体;
+	transition: linear 0.2s;
+}
+.upfile_btn:hover,.sub:hover{
+	color: black;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.select .sub{
+	margin-top: 30px;
+}
+
+.foot{
+	width: 100%;
+	height: 245px;
+	padding-top: 70px;
+}
+.foot ul{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 0px;
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+.foot dl{
+	height: 15px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.foot dd{
+	height: 15px;
+	font-size: 15px;
+	line-height: 40px;
+}

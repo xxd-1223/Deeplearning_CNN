@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息显示</title>
+    <link rel="stylesheet" href="/static/css/info.css" />
+</head>
+<body>
+<div class="top">
+    <p>{{ name }}</p>
+</div>
+
+<div class="m1">
+    <div class="catlogo">
+        <p style="font-weight: bold">科:<p/><p>{{ branch }}</p>
+        <p style="font-weight: bold">别名:</p><p>{{ nickname }}</p>
+        <p style="font-weight: bold">拉丁学名:</p><p>{{ latin_name }}</p>
+    </div>
+    <div class="catname"><p style="font-weight: bold">描述<p/>
+        <p>{{ description }}</p>
+    </div>
+</div>
+
+<div class="m2">
+    <div class="feature">
+        <div class="featt"><p>形态特征</p></div>
+        <div class="nn">
+        <p>{{ feature }}</p>
+        </div>
+    </div>
+
+    <div class="live">
+        <div class="featt"><p>分布范围</p></div>
+        <div class="nn">
+        <p>{{ area }}</p>
+        </div>
+    </div>
+</div>
+<div class="m3">
+    <div class="feedmethod">
+        <div class="methodtitle">
+			<p>繁殖方法</p>
+		</div>
+    <p class="nn">{{ sire }}</p>
+    </div>
+</div>
+</body>
+
+
+</html>

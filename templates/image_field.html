@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片的上传</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script type="text/javascript" src="/static/js/flower.js" ></script>
+</head>
+<body class = "background">
+    <div class = "div1">
+        <div class = div2>
+            <div class="title">
+                <p>Flower &nbsp;&nbsp;Recognition &nbsp;&nbsp;Based &nbsp;&nbsp;On &nbsp;&nbsp;CNN</p>
+	        </div>
+            <div class="select">
+                <form action="{% url 'app:image_field' %}" method="post" enctype="multipart/form-data" name="myform"  id="1" onsubmit="return check(this)">
+                    {% csrf_token %}
+                    <br>
+                    <input type = "file" name ='icon' class="upfile" id="btn_file">
+                    <button type="button" onclick="F_Open_dialog()" class="upfile_btn">选择图片</button>
+                    <br>
+                    <input type="reset" name="888" id="999" class="sub">
+{#                    <button class="sub"  onclick="clear()" value="种类识别" id="btn_check">种类识别</button>#}
+                    <button class="sub" >种类识别</button>
+                </form>
+            </div>
+            <div class="foot">
+                <ul>
+                    <li>
+                        <ol>
+                            <dd>识别的种类</dd>
+                            <dl>月见草、风铃草</dl>
+                            <dl>蝴蝶兰、驴欺口</dl>
+                            <dl>卷丹、乌头</dl>
+                            <dl>香豌豆、硬叶兜兰</dl>
+                            <dl>硬叶兜兰、金盏花</dl>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <dd>说明</dd>
+                            <dl>上传图片均为jpg</dl>
+                            <dl>识别精度大约95%以上</dl>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
